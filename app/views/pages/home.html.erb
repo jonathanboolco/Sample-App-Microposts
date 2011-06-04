@@ -1,0 +1,9 @@
+<h1>Boolco Sample App</h1>
+
+<p>
+  This is our home page for a simple app.
+</p>
+
+<% if !signed_in? %>
+	<%= link_to "Sign up now!", signup_path, :class => "signup_button round" %>
+<% end%>
